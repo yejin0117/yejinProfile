@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>송예진 — Portfolio</title>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 다크모드 토글용 체크박스 (체크박스 해크) -->
+<input type="checkbox" id="theme-toggle" class="theme-toggle">
+
+<nav>
+  <div class="logo">Song Yejin</div>
+  <ul class="links">
+    <li><a href="#about" class="active">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#project">Project</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <label for="theme-toggle" class="theme-switch" aria-label="다크모드 전환">
+    <span class="icon-light">☀️</span>
+    <span class="icon-dark">🌙</span>
+  </label>
+</nav>
+
+<div class="section-wrap bg-white">
+<section class="hero" id="hero">
+  <div class="eyebrow">Frontend Developer 지망</div>
+  <h1 id="typing">안녕하세요<span class="type-cursor"></span></h1>
+  <p>소프트웨어학과에서 개발을 공부하고 있는 송예진입니다. <br>사용자가 편하게 쓸 수 있는 화면을 고민하고 구현하고자 합니다.</p>
+</section>
+</div>
+
+<div class="section-wrap bg-lavender">
+<section id="about">
+  <div class="section-tag">About</div>
+  <div class="about-layout">
+    <div class="about-photo">
+      <img src="images/profile.png" alt="송예진 프로필 사진" onerror="this.style.display='none';this.parentElement.classList.add('no-img')">
+    </div>
+    <div class="about-info">
+      <div class="info-row"><span class="k">이름</span><span class="v">송예진</span></div>
+      <div class="info-row"><span class="k">학교 / 학과</span><span class="v">안양대학교 / 소프트웨어학과</span></div>
+      <div class="info-row"><span class="k">관심 분야</span><span class="v">웹앱, 프론트엔드 개발, 서버</span></div>
+      <div class="info-row"><span class="k">성격과 장점</span><span class="v">꼼꼼하게 확인으로 실수를 줄이는 편이며, 책임감을 가지고 맡은 일을 수행합니다.</span></div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="section-wrap bg-white">
+<section id="skills">
+  <div class="section-tag">Skills</div>
+  <h2 class="title">기술 스택</h2>
+  <div class="chips">
+    <div class="chip">React</div>
+    <div class="chip">HTML</div>
+    <div class="chip">CSS</div>
+    <div class="chip">JavaScript</div>
+    <div class="chip">Spring Boot</div>
+    <div class="chip">Python</div>
+    <div class="chip">Java</div>
+    <div class="chip">C</div>
+    <div class="chip">C++</div>
+  </div>
+</section>
+</div>
+
+<div class="section-wrap bg-lavender">
+<section id="project">
+  <div class="section-tag">Project</div>
+  <h2 class="title">프로젝트</h2>
+  <div class="projects">
+
+    <div class="pcard">
+      <div class="pimg"><img src="images/project1.png" alt="AI 기반 운동 자세 분석 스크린샷"></div>
+      <div class="ptop">
+        <h3>AI 기반 운동 자세 분석</h3>
+        <span class="pdate">2025</span>
+      </div>
+      <p>사용자의 운동 자세를 인식해 분석하고 피드백을 제공하는 프로젝트</p>
+      <div class="ptags"><span>React</span><span>Python</span><span>Gemini API</span></div>
+    </div>
+
+    <div class="pcard">
+      <div class="pimg"><img src="images/project2.png" alt="AI 이력서 스크린샷"></div>
+      <div class="ptop">
+        <h3>AI 이력서</h3>
+        <span class="pdate">2025</span>
+      </div>
+      <p>AI를 활용해 이력서 작성과 첨삭을 도와주는 서비스</p>
+      <div class="ptags"><span>React</span><span>Spring Boot</span><span>Gemini API</span></div>
+    </div>
+
+    <div class="pcard">
+      <div class="pimg"><img src="images/project3.png" alt="자바를 잡자 JavaLearn 스크린샷"></div>
+      <div class="ptop">
+        <h3>자바를 잡자 (JavaLearn)</h3>
+        <span class="pdate">2026</span>
+      </div>
+      <p>Duolingo 스타일의 Java 학습 웹 플랫폼, Gemini API로 문제를 자동 생성</p>
+      <div class="ptags"><span>Spring Boot</span><span>JavaScript</span><span>Gemini API</span></div>
+    </div>
+
+  </div>
+</section>
+</div>
+
+<div class="section-wrap bg-white">
+<section id="contact">
+  <div class="section-tag">Contact</div>
+  <h2 class="title">연락처</h2>
+  <div class="contact-box">
+    <div class="contact-links bg-lavender">
+      <a href="https://github.com/yejin0117" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:2024e7447@gs.anyang.ac.kr?subject=포트폴리오 문의&body=안녕하세요">2024e7447@gs.anyang.ac.kr</a>
+    </div>
+  </div>
+</section>
+</div>
+
+<footer>© 2026 Song Yejin</footer>
+
+<a href="#hero" id="toTop" aria-label="맨 위로">↑</a>
+
+</body>
+</html>
